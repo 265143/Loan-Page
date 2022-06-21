@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="style.css">
+    </head>
+    <body>
+<div class="container">
+<div class="header">
+ <h2>Loan Application Page</h2>
+ </div>
+<form class="form" id="form">
+<div class="form-input">
+<label>Full Name</label>
+<input type="text" name="" id="fullname" placeholder="Enter your Full Name" autocomplete="off">
+<small>Error Message</small>
+</div>
+  <br> <div class="form-input">
+<label>Email</label>
+ <input type="Email" name="" id="email" placeholder="Enter your Email" autocomplete="off">
+<small>Error Message</small>
+  </div>
+<br> <div class="form-input">
+ <label>PAN</label>
+<input type="text" name="" id="pan" placeholder="Enter your PAN Number" autocomplete="off">
+ <small>Error Message</small>
+</div>
+<br> <div class="form-input">
+  <label>Loan Amount</label>
+  <input type="number" name="" id="Loan Amount" placeholder="Enter your Loan Amount">
+
+</div> <br>
+ <body onload="generate()">
+  <h2 id="status" style="color: #6446eb;"></h2>
+ <div>
+<input type="text" readonly id="generated-captcha">
+</div><br>
+<div>
+     <input type="text" id="entered-captcha" placeholder="Enter the captcha..">
+      </div><br>
+      <button type="button" onclick="check()">
+      check
+    </button>
+    <button type="button" onclick="generate()" id="gen">
+     Generate New
+    </button>
+                                        
+     <a href="end.html" input type="submit" class="btn" >SUBMIT</a>
+    </form>
+          </div>                          
+ </body>
+            <script src="captcha.js"></script>-->
+
+</html>
